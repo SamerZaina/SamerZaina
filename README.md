@@ -1,16 +1,51 @@
-## Hi there 👋
+👋 Hi, I'm Samer Abu Zaina
 
-<!--
-**SamerZaina/SamerZaina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Computer Engineering Student
+👨‍💻 Flutter Developer | Problem Solving
+💡 Passionate about building real systems —  mobile apps .
 
-Here are some ideas to get you started:
+🚀 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📱 I develop Flutter applications, focusing on clean UI/UX and state management.
+
+🧩 I enjoy solving algorithm challenges on LeetCode to improve my problem-solving skills.
+
+🛠 I work with Proteus, C language, and mobile development tools.
+
+📚 Always learning: Data structures, APIs, mobile architecture.
+
+Languages
+
+Dart
+
+Java
+
+C
+
+Python
+
+C++ (Basics)
+
+Frameworks / Tools
+
+Flutter
+
+Proteus 8.9
+
+Git & GitHub
+
+ARM Cortex-M Microcontrollers
+
+Firebase
+
+REST APIs
+
+📫 Contact Me
+
+📧 Samerzaina47@gmail.com
+
+🧑‍💻 GitHub: SamerZaina
+
+⭐ Thanks for visiting my profile!
+
+Feel free to check my repositories or reach out if you want to collaborate.
