@@ -1,6 +1,6 @@
 <!-- Typing SVG -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=7F3FBF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Samer+AbuZaina;Computer+Engineering;Flutter+Developer;I+enjoy+problem+solving+and+turning+challenges+into+practical+solutions;Always+learning+new+things+%F0%9F%8C%9F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=7F3FBF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Samer+AbuZaina;Computer+Engineering;Flutter+Developer;problem+solving+and+turning+challenges+into+practical+solutions;Always+learning+new+things+%F0%9F%8C%9F" alt="Typing SVG" />
 </p>
 
 👋 Hi, I'm Samer Abu Zaina
