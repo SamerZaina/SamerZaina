@@ -4,7 +4,7 @@
 </p>
 
 👋 Hi, I'm Samer Abu Zaina
-  🎓 Computer Engineering Student
+  🎓 Computer Engineering 
   👨‍💻 Flutter Developer | Problem Solving
   💡 Passionate about building real systems —  mobile apps .
 
