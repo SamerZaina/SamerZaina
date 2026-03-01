@@ -55,7 +55,7 @@
 
 - 📧 Email: [Samerzaina47@gmail.com](mailto:Samerzaina47@gmail.com)
 - 💬 WhatsApp: https://wa.me/972597776840
-- 💻 GitHub: https://github.com/SamerZaina
+- 💻 LinkedIn: www.linkedin.com/in/samerabuzaina
 
 ---
 
