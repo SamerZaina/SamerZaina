@@ -25,6 +25,18 @@
 
 ## 📱 What I Build
 
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="100" />
+  <br><b>Computer Engineering</b>
+  <br><br>
+
+  <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png" width="100" />
+  <br><b>Mobile Development</b>
+  <br><br>
+
+  <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="100" />
+  <br><b>Software Engineering</b>
+</p>
 
 
 ✔ Responsive Flutter Applications  
