@@ -25,9 +25,7 @@
 
 ## 📱 What I Build
 
-<p align="center">
-  <img src="Images/FullView.png" width="800"/>
-</p>
+
 
 ✔ Responsive Flutter Applications  
 ✔ Clean UI/UX Design  
