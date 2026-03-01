@@ -25,10 +25,8 @@
 
 ## 📱 What I Build
 
-
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212744275-7c6e6f52-63d6-4a73-8f7e-4e7e7bfa9c3a.gif" width="600"/>
+  <img src="Images/FullView.png" width="800"/>
 </p>
 
 ✔ Responsive Flutter Applications  
