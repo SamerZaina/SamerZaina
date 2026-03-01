@@ -26,20 +26,9 @@
 ## 📱 What I Build
 
 <p align="center">
-  <span>
-    <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="100" /><br>
-    <b>Computer Engineering</b>
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png" width="100" /><br>
-    <b>Mobile Development</b>
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="100" /><br>
-    <b>Software Engineering</b>
-  </span>
+  <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="100" />
+  <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png" width="100" />
+  <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="100" />
 </p>
 
 ✔ Responsive Flutter Applications  
