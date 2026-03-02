@@ -35,7 +35,7 @@
 ✔ Clean UI/UX Design  
 ✔ REST API Integration  
 ✔ Firebase Authentication & Firestore  
-✔ State Management (Provider / Bloc)  
+✔ State Management (Provider / getx /  Bloc)  
 
 ---
 
