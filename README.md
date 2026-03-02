@@ -18,7 +18,7 @@
 ## 🛠️ Technologies & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,git,github,python,java,mysql,c,jupyter" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,git,github,python,java,mysql,c,vscode" />
 </p>
 
 ---
