@@ -41,12 +41,10 @@
 
 ## 📊 GitHub Stats
 
+## 🔥 Streak Stats
+
 <p align="center">
-  <!-- GitHub Stats Card -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SamerZaina&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  
-  <!-- Top Languages Card -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamerZaina&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img src="https://streak-stats.demolab.com/?user=SamerZaina&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
