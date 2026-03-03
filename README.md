@@ -42,7 +42,9 @@
 ## 📊 GitHub Stats
 
 ## 🔥 Streak Stats
-
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=SamerZaina&theme=tokyonight&hide_border=true" />
+</p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SamerZaina&show_icons=true&theme=tokyonight&hide_border=true" width="400" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamerZaina&layout=compact&theme=tokyonight&hide_border=true" width="350" />
