@@ -50,9 +50,9 @@
 
 ## 📫 Connect With Me
 
-- 📧 Email: [Samerzaina47](mailto:Samerzaina47@gmail.com)
-- 💬 WhatsApp:[Samer WhatsApp](https://wa.me/972597776840) 
-- 💻 LinkedIn: [samerabuzaina](www.linkedin.com/in/samerabuzaina)
+- 📧 Email: [ Email](mailto:Samerzaina47@gmail.com)
+- 💬 WhatsApp:[ WhatsApp](https://wa.me/972597776840) 
+- 💻 LinkedIn: [ LinkedIn](www.linkedin.com/in/samerabuzaina)
 
 ---
 
