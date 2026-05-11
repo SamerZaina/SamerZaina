@@ -53,7 +53,7 @@
 - 📧 Email: [ Email](mailto:Samerzaina47@gmail.com)
 - 💬 WhatsApp:[ WhatsApp](https://wa.me/972597776840) 
 - 💻 LinkedIn: [ LinkedIn](https://www.linkedin.com/in/samerabuzaina/)
- 🐦 X: [X](https://x.com/SamerAbuZaina)
+- 🐦 X: [X](https://x.com/SamerAbuZaina)
 
 ---
 
