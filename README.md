@@ -7,7 +7,7 @@
 
 ## 👨‍💻 About Me
 
-🎓 Computer Engineering  
+🎓 Computer Engineer  
 📱 Flutter Mobile Developer  
 🚀 Focused on building responsive and high-performance mobile applications  
 🔗 API integration and backend communication  
