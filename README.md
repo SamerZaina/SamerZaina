@@ -1,19 +1,43 @@
 <!-- Typing SVG -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=7F3FBF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Samer+Abu+Zaina;Computer+Engineer%F0%9F%96%A5%EF%B8%8F;Flutter+Developer+%F0%9F%93%B1;Passionate+problem+solver+%F0%9F%A7%A0;Always+learning+new+things+%F0%9F%93%9A;Feel+free+to+check+my+repositories+%F0%9F%98%8A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=7F3FBF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Samer+Abu+Zaina;Computer+Engineer+%F0%9F%96%A5%EF%B8%8F;Flutter+Mobile+Developer+%F0%9F%93%B1;Clean+Architecture+%26+Scalable+Apps+%E2%9A%99%EF%B8%8F;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
---- 
+<p align="center">
+  <a href="https://samerabuzaina.netlify.app/">
+    <img src="https://img.shields.io/badge/🌐%20Portfolio-samerabuzaina.netlify.app-7F3FBF?style=for-the-badge" alt="Portfolio" />
+  </a>
+  <a href="https://samerabuzaina.netlify.app/SamerCv.pdf">
+    <img src="https://img.shields.io/badge/📄%20Resume-Download%20CV-blueviolet?style=for-the-badge" alt="CV" />
+  </a>
+  <a href="https://www.linkedin.com/in/samerabuzaina/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SamerZaina&label=Profile%20Views&color=7F3FBF&style=flat" alt="Profile views" />
+</p>
+
+<br/>
 
 ## 👨‍💻 About Me
 
-🎓 Computer Engineer  
-📱 Flutter Mobile Developer  
-🚀 Focused on building responsive and high-performance mobile applications  
-🔗 API integration and backend communication  
-🧠 Passionate problem solver who loves clean architecture and scalable solutions  
+```yaml
+name: Samer Alaa Abu Zaina
+role: Computer Engineer & Flutter Mobile Developer
+focus: Building responsive, high-performance cross-platform apps
+loves: [Clean Architecture, API Integration, Scalable Solutions]
+status: Open to freelance projects & full-time opportunities 🟢
+```
 
----
+- 🎓 B.Sc. Computer Engineering (2020 – 2026)
+- 📱 Specialize in **Flutter & Dart** — pixel-perfect, cross-platform UIs
+- 🔗 Strong focus on **REST API integration** and backend communication
+- 🧠 Philosophy: *great software is invisible — it just works beautifully*
+- 🌍 Portfolio site → **[samerabuzaina.netlify.app](https://samerabuzaina.netlify.app/)**
+
+<br/>
 
 ## 🛠️ Technologies & Tools
 
@@ -21,40 +45,108 @@
   <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,git,github,python,java,mysql,c,vscode" />
 </p>
 
----
+<details>
+<summary>📊 <b>Click to expand skill proficiency</b></summary>
+<br/>
+
+**Mobile Development**
+
+`Flutter` ████████░░ 85%
+`Dart` ████████░░ 80%
+`Responsive UI` ████████░░ 80%
+`Firebase` ███████░░░ 75%
+
+**Programming Languages**
+
+`Java` ████████░░ 85%
+`Dart` ████████░░ 80%
+`Python` ███████░░░ 70%
+`VHDL` ██████░░░░ 65%
+
+**Architecture & Tools**
+
+`GetX / Bloc` ████████░░ 80%
+`REST APIs / Dio` ████████░░ 80%
+`Clean Architecture` ████████░░ 80%
+`Git & GitHub` ███████░░░ 70%
+
+</details>
+
+<br/>
 
 ## 📱 What I Build
 
+| | |
+|---|---|
+| **Responsive Flutter Apps** | Pixel-perfect, smooth, cross-platform (Android & iOS) |
+| **Clean UI/UX Design** | Thoughtful design systems with real animation polish |
+| **REST API Integration** | Reliable data layers with Dio & backend communication |
+| **Firebase Auth & Firestore** | Real-time backends, authentication, and storage |
+| **State Management** | Provider / GetX / Bloc — whatever fits the architecture |
+
+<br/>
+
+## 🔨 Currently Working On
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🏬 [Invexor](https://github.com/SamerZaina)
+**Flutter • Django • Python**
+
+A modern warehouse and inventory management platform — a Flutter frontend cross-integrated with a Python/Django backend.
+
+`🟢 In active development — polishing features now`
+
+</td>
+</tr>
+</table>
+
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="100" />
-  <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png" width="100" />
-  <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="100" />
+  <a href="https://github.com/SamerZaina?tab=repositories">
+    <img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
-✔ Responsive Flutter Applications  
-✔ Clean UI/UX Design  
-✔ REST API Integration  
-✔ Firebase Authentication & Firestore  
-✔ State Management (Provider / getx /  Bloc)  
-
----
+<br/>
 
 ## 📊 GitHub Stats
 
-## 🔥 Streak Stats
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SamerZaina&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SamerZaina&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamerZaina&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=SamerZaina&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
----
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SamerZaina&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+</p>
 
-## 📫 Connect With Me
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SamerZaina/SamerZaina/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+</p>
 
-- 📧 Email: [ Email](mailto:Samerzaina47@gmail.com)
-- 💬 WhatsApp:[ WhatsApp](https://wa.me/972597776840) 
-- 💻 LinkedIn: [ LinkedIn](https://www.linkedin.com/in/samerabuzaina/)
-- 🐦 X: [X](https://x.com/SamerAbuZaina)
+<br/>
 
----
+## 📫 Let's Connect
 
-⭐ Always working on improving my skills and building impactful applications.
+<p align="center">
+  <a href="https://samerabuzaina.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-7F3FBF?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="mailto:Samerzaina47@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/samerabuzaina/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://wa.me/972597776840"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <a href="https://x.com/SamerAbuZaina"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/SAZ4j/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <i>⭐ Always working on improving my skills and building impactful applications.</i>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=4000&pause=2000&color=7F3FBF&center=true&vCenter=true&width=500&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B" />
+</p>
