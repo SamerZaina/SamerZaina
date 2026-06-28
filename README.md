@@ -49,26 +49,32 @@ status: Open to freelance projects & full-time opportunities 🟢
 <summary>📊 <b>Click to expand skill proficiency</b></summary>
 <br/>
 
-**Mobile Development**
+**📱 Mobile Development**
 
-`Flutter` ████████░░ 85%
-`Dart` ████████░░ 80%
-`Responsive UI` ████████░░ 80%
-`Firebase` ███████░░░ 75%
+| Skill | Level |
+|---|---|
+| Flutter | ![85%](https://progress-bar.xyz/85/?title=&width=200&color=7F3FBF&suffix=%25) |
+| Dart | ![80%](https://progress-bar.xyz/80/?title=&width=200&color=7F3FBF&suffix=%25) |
+| Responsive UI | ![80%](https://progress-bar.xyz/80/?title=&width=200&color=7F3FBF&suffix=%25) |
+| Firebase | ![75%](https://progress-bar.xyz/75/?title=&width=200&color=7F3FBF&suffix=%25) |
 
-**Programming Languages**
+**💻 Programming Languages**
 
-`Java` ████████░░ 85%
-`Dart` ████████░░ 80%
-`Python` ███████░░░ 70%
-`VHDL` ██████░░░░ 65%
+| Skill | Level |
+|---|---|
+| Java | ![85%](https://progress-bar.xyz/85/?title=&width=200&color=B58CE6&suffix=%25) |
+| Dart | ![80%](https://progress-bar.xyz/80/?title=&width=200&color=B58CE6&suffix=%25) |
+| Python | ![70%](https://progress-bar.xyz/70/?title=&width=200&color=B58CE6&suffix=%25) |
+| VHDL | ![65%](https://progress-bar.xyz/65/?title=&width=200&color=B58CE6&suffix=%25) |
 
-**Architecture & Tools**
+**🏗️ Architecture & Tools**
 
-`GetX / Bloc` ████████░░ 80%
-`REST APIs / Dio` ████████░░ 80%
-`Clean Architecture` ████████░░ 80%
-`Git & GitHub` ███████░░░ 70%
+| Skill | Level |
+|---|---|
+| GetX / Bloc | ![80%](https://progress-bar.xyz/80/?title=&width=200&color=5C2D91&suffix=%25) |
+| REST APIs / Dio | ![80%](https://progress-bar.xyz/80/?title=&width=200&color=5C2D91&suffix=%25) |
+| Clean Architecture | ![80%](https://progress-bar.xyz/80/?title=&width=200&color=5C2D91&suffix=%25) |
+| Git & GitHub | ![70%](https://progress-bar.xyz/70/?title=&width=200&color=5C2D91&suffix=%25) |
 
 </details>
 
