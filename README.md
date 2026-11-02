@@ -151,9 +151,9 @@
   <img src="./assets/section-stats.svg" width="820" alt="GitHub Stats" />
 </p>
 
-<!-- Streak card: only Current Streak + Longest Streak, dragon colors -->
+<!-- Streak card: generated daily by workflow, dragon theme -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SamerZaina&hide_total_contributions=true&background=0B0709&border=2A0D0D&stroke=2A0D0D&ring=FF3B1F&fire=FF9A3C&currStreakNum=FFB08A&sideNums=FFB08A&currStreakLabel=FF5A2E&sideLabels=FF5A2E&dates=D8B4A6&border_radius=16" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/SamerZaina/SamerZaina/output/dragon-streak.svg" width="820" alt="GitHub Streak" />
 </p>
 
 <!-- Dragon eating the contribution grid (generated daily by the workflow, served from the "output" branch) -->
