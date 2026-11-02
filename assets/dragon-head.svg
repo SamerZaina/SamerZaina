@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigglow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <!-- realistic skin: noise-based bump lighting -->
+    <filter id="skin" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.07 0.11" numOctaves="3" seed="7" result="n"/>
+      <feDiffuseLighting in="n" lighting-color="#ff5a2a" surfaceScale="5" diffuseConstant="1" result="l">
+        <feDistantLight azimuth="15" elevation="48"/>
+      </feDiffuseLighting>
+      <feComposite in="SourceGraphic" in2="l" operator="arithmetic" k1="0" k2="1" k3="0.5" k4="0" result="mix"/>
+      <feComposite in="mix" in2="SourceAlpha" operator="in"/>
+    </filter>
+    <radialGradient id="aura" cx="72%" cy="52%" r="60%">
+      <stop offset="0" stop-color="#ff3a14" stop-opacity="0.5"/>
+      <stop offset="0.55" stop-color="#7a0b0b" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0b0709" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#050304"/>
+      <stop offset="0.55" stop-color="#1a0b0d"/>
+      <stop offset="1" stop-color="#43160f"/>
+    </linearGradient>
+    <linearGradient id="horn" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#3a1710"/>
+      <stop offset="1" stop-color="#0a0506"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#ff5a1f" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#fff6c0"/>
+      <stop offset="0.35" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#ff1a1a"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scales" width="14" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0,10 Q7,0 14,10" fill="none" stroke="#ff4d2e" stroke-width="0.8" opacity="0.55"/>
+      <path d="M-7,5 Q0,-5 7,5 M7,5 Q14,-5 21,5" fill="none" stroke="#ff4d2e" stroke-width="0.8" opacity="0.35"/>
+    </pattern>
+    <clipPath id="headClip">
+      <path d="M30,300 L30,235 C45,190 62,160 88,132 C108,108 145,86 185,88 C212,90 236,102 256,116 C270,126 280,136 283,148 C285,160 278,172 262,178 C245,188 225,198 205,206 C185,214 168,226 156,244 L150,300 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="300" height="300" fill="#0b0709"/>
+  <rect width="300" height="300" fill="url(#aura)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <line x1="0" y1="1" x2="300" y2="1" stroke="url(#edge)" stroke-width="2"/>
+  <line x1="0" y1="299" x2="300" y2="299" stroke="url(#edge)" stroke-width="2"/>
+
+  <g transform="translate(4,12) scale(0.92)">
+
+    <!-- back spikes -->
+    <g fill="url(#horn)" stroke="#ff4d2e" stroke-width="1" filter="url(#glow)">
+      <polygon points="92,128 66,108 80,142"/>
+      <polygon points="72,152 44,140 62,174"/>
+      <polygon points="55,184 28,176 46,208"/>
+      <polygon points="40,214 14,212 32,238"/>
+    </g>
+
+    <!-- horns -->
+    <g stroke="#ff4d2e" stroke-width="1.2" fill="url(#horn)" filter="url(#glow)">
+      <path d="M122,108 C100,78 66,54 22,46 C58,62 82,88 92,128 Z"/>
+      <path d="M150,96 C136,64 114,40 84,26 C108,48 122,74 128,104 Z"/>
+    </g>
+    <path d="M120,106 C98,80 70,60 40,52" fill="none" stroke="#ffb347" stroke-width="1" opacity="0.7"/>
+
+    <!-- head body with bump-lit skin -->
+    <path d="M30,300 L30,235 C45,190 62,160 88,132 C108,108 145,86 185,88 C212,90 236,102 256,116 C270,126 280,136 283,148 C285,160 278,172 262,178 C245,188 225,198 205,206 C185,214 168,226 156,244 L150,300 Z"
+          fill="url(#body)" filter="url(#skin)"/>
+
+    <!-- scale layer -->
+    <g clip-path="url(#headClip)">
+      <rect x="0" y="60" width="300" height="250" fill="url(#scales)"/>
+      <!-- throat plates -->
+      <g fill="none" stroke="#ff6a3c" stroke-width="1.2" opacity="0.45">
+        <path d="M158,238 Q178,242 196,224"/>
+        <path d="M154,256 Q178,260 204,240"/>
+        <path d="M152,274 Q180,278 214,256"/>
+      </g>
+      <!-- cheek armor plates -->
+      <g fill="none" stroke="#ff4d2e" stroke-width="1.4" opacity="0.7">
+        <path d="M120,150 C150,150 178,160 205,178"/>
+        <path d="M110,170 C140,172 168,184 192,200"/>
+        <path d="M100,192 C128,196 152,208 172,226"/>
+      </g>
+      <!-- tech veins -->
+      <g fill="none" stroke="#ff3b1f" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 12" filter="url(#glow)">
+        <path d="M60,270 V225 L92,195 V160 L120,134"><animate attributeName="stroke-dashoffset" from="0" to="-38" dur="2s" repeatCount="indefinite"/></path>
+        <path d="M96,290 V250 L128,222 H150"><animate attributeName="stroke-dashoffset" from="0" to="-38" dur="2.4s" repeatCount="indefinite"/></path>
+        <path d="M120,134 L150,122 H172"><animate attributeName="stroke-dashoffset" from="0" to="-38" dur="1.6s" repeatCount="indefinite"/></path>
+      </g>
+      <g fill="#ffb347" filter="url(#glow)">
+        <circle cx="92" cy="160" r="2.5"><animate attributeName="r" values="2;4;2" dur="1.6s" repeatCount="indefinite"/></circle>
+        <circle cx="128" cy="222" r="2.5"><animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="172" cy="122" r="2"/>
+      </g>
+    </g>
+
+    <!-- brow ridge -->
+    <path d="M168,104 C198,98 228,110 246,128 C222,120 196,118 166,124 Z" fill="#0a0506" stroke="#ff6a3c" stroke-width="1.2"/>
+
+    <!-- eye -->
+    <path d="M186,130 C198,118 220,118 234,130 C220,140 198,142 186,130 Z" fill="#ff1a1a" filter="url(#bigglow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M186,130 C198,118 220,118 234,130 C220,140 198,142 186,130 Z" fill="url(#eye)" stroke="#ffd27a" stroke-width="1"/>
+    <ellipse cx="211" cy="130" rx="3" ry="8" fill="#120405">
+      <animate attributeName="rx" values="3;4.5;3" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="204" cy="125" r="2" fill="#fff" opacity="0.9"/>
+
+    <!-- mouth heat glow -->
+    <path d="M268,168 C245,175 215,181 190,187 C178,190 170,192 165,194" fill="none" stroke="#ff3a14" stroke-width="7" filter="url(#bigglow)">
+      <animate attributeName="opacity" values="0.5;1;0.6;1;0.5" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M268,168 C245,175 215,181 190,187 C178,190 170,192 165,194" fill="none" stroke="#ffb347" stroke-width="1.6"/>
+
+    <!-- teeth -->
+    <g fill="#ffe9d6" stroke="#2a0d0d" stroke-width="0.6">
+      <polygon points="252,172 260,171 256,186"/>
+      <polygon points="234,176 242,174 238,191"/>
+      <polygon points="216,180 224,178 220,195"/>
+      <polygon points="198,184 206,182 202,198"/>
+      <polygon points="180,188 188,186 184,201"/>
+    </g>
+
+    <!-- nostril + smoke -->
+    <ellipse cx="272" cy="146" rx="4" ry="2.5" fill="#ff4d2e" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.3s" repeatCount="indefinite"/>
+    </ellipse>
+    <g fill="#ff7a4a" filter="url(#glow)">
+      <circle cx="276" cy="142" r="3"><animate attributeName="cy" values="142;100" dur="2.6s" repeatCount="indefinite"/><animate attributeName="cx" values="276;300" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2.6s" repeatCount="indefinite"/><animate attributeName="r" values="2;9" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="276" cy="142" r="3"><animate attributeName="cy" values="142;96" dur="2.6s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="cx" values="276;296" dur="2.6s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="r" values="2;8" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- rim light on the silhouette -->
+    <path d="M88,132 C108,108 145,86 185,88 C212,90 236,102 256,116 C270,126 280,136 283,148 C285,160 278,172 262,178 C245,188 225,198 205,206 C185,214 168,226 156,244"
+          fill="none" stroke="url(#rim)" stroke-width="2.4" filter="url(#glow)">
+      <animate attributeName="stroke-opacity" values="0.65;1;0.65" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- embers -->
+    <g fill="#ff9a3c" filter="url(#glow)">
+      <circle cx="150" cy="300" r="2"><animate attributeName="cy" values="300;60" dur="4.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="210" cy="300" r="1.6"><animate attributeName="cy" values="300;40" dur="3.4s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="3.4s" begin="0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="300" r="2"><animate attributeName="cy" values="300;60" dur="4.8s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="4.8s" begin="1.6s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <text x="150" y="292" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="4" fill="#ff6a3c">
+    DRAGON CORE
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+</svg>

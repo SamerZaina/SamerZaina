@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="300" viewBox="0 0 260 300">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="mem" x1="1" x2="0">
+      <stop offset="0" stop-color="#ff3a14" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7a0b0b" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" x2="1">
+      <stop offset="0" stop-color="#2a0808"/>
+      <stop offset="1" stop-color="#4a0d0d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== shared wing shape: exact mirror of the left wing ===== -->
+  <g transform="translate(260,0) scale(-1,1)">
+    <path d="M30,0 H260 V300 H30 Q0,300 0,270 V30 Q0,0 30,0 Z" fill="#0b0709"/>
+    <path d="M260,1 H30 Q1,1 1,30 V270 Q1,299 30,299 H260" fill="none" stroke="#ff3b1f" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <polygon points="260,150 30,35 12,110 12,190 40,268" fill="url(#mem)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </polygon>
+    <g fill="none" stroke="#ff3b1f" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 16" filter="url(#glow)">
+      <line x1="260" y1="150" x2="30" y2="35"><animate attributeName="stroke-dashoffset" from="0" to="44" dur="1.8s" repeatCount="indefinite"/></line>
+      <line x1="260" y1="150" x2="12" y2="110"><animate attributeName="stroke-dashoffset" from="0" to="44" dur="2.1s" repeatCount="indefinite"/></line>
+      <line x1="260" y1="150" x2="12" y2="190"><animate attributeName="stroke-dashoffset" from="0" to="44" dur="1.9s" repeatCount="indefinite"/></line>
+      <line x1="260" y1="150" x2="40" y2="268"><animate attributeName="stroke-dashoffset" from="0" to="44" dur="2.3s" repeatCount="indefinite"/></line>
+    </g>
+    <polygon points="35,118 215,118 235,150 215,182 35,182 15,150" fill="url(#btn)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"/>
+    <rect x="0" y="0" width="260" height="2" fill="#ff5a2a" opacity="0.5">
+      <animate attributeName="y" values="0;298" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== icon badge (same ring, same size; button center is x=135 after mirroring) ===== -->
+  <circle cx="135" cy="78" r="24" fill="none" stroke="#ff4d2e" stroke-width="1.5" stroke-dasharray="5 7" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" from="0 135 78" to="360 135 78" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="none" stroke="#ff9a3c" stroke-width="1.6" filter="url(#glow)">
+    <path d="M126,66 H141 L146,71 V90 H126 Z"/>
+    <path d="M141,66 V71 H146"/>
+    <line x1="130" y1="77" x2="142" y2="77"/>
+    <line x1="130" y1="82" x2="142" y2="82"/>
+    <line x1="130" y1="86" x2="137" y2="86"/>
+  </g>
+
+  <!-- ===== labels (same size, same positions) ===== -->
+  <text x="135" y="152" text-anchor="middle" font-family="'Courier New',monospace" font-size="24" font-weight="bold" letter-spacing="2" fill="#ff5a2e">RESUME</text>
+  <text x="135" y="170" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#ffa070">Download CV (PDF) file</text>
+  <text x="135" y="225" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" letter-spacing="3" fill="#ff6a3c">[ DOWNLOAD ]
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+</svg>

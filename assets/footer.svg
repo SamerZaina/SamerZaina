@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="90" viewBox="0 0 820 90">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="txt" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff3b1f"/>
+      <stop offset="1" stop-color="#ff9a3c"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#ff3a14" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0b0709" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="820" height="90" rx="14" fill="#0b0709"/>
+  <rect width="820" height="90" rx="14" fill="url(#aura)"/>
+  <rect x="1" y="1" width="818" height="88" rx="13" fill="none" stroke="#2a0d0d"/>
+  <line x1="30" y1="1" x2="790" y2="1" stroke="url(#edge)" stroke-width="2"/>
+  <line x1="30" y1="89" x2="790" y2="89" stroke="url(#edge)" stroke-width="2"/>
+
+  <!-- message -->
+  <text x="410" y="38" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-style="italic" fill="#d8b4a6">"Always working on improving my skills and building impactful applications."</text>
+  <text x="410" y="66" text-anchor="middle" font-family="'Courier New',monospace" font-size="14" font-weight="bold" letter-spacing="4" fill="url(#txt)" filter="url(#glow)">✦ THANKS FOR VISITING MY PROFILE ✦</text>
+
+  <!-- glowing ticker -->
+  <rect x="30" y="82" width="80" height="2" fill="#ff5a2a" filter="url(#glow)">
+    <animate attributeName="x" values="30;710;30" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

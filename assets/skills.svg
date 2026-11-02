@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a0c0d"/>
+      <stop offset="1" stop-color="#120506"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" x2="1">
+      <stop offset="0" stop-color="#3a0b0b"/>
+      <stop offset="1" stop-color="#1a0607"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="80%" cy="90%" r="70%">
+      <stop offset="0" stop-color="#ff3a14" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0b0709" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="820" height="360" rx="16" fill="#0b0709"/>
+  <rect width="820" height="360" rx="16" fill="url(#aura)"/>
+  <rect x="1" y="1" width="818" height="358" rx="15" fill="none" stroke="#2a0d0d"/>
+  <line x1="30" y1="1" x2="790" y2="1" stroke="url(#edge)" stroke-width="2"/>
+  <line x1="30" y1="359" x2="790" y2="359" stroke="url(#edge)" stroke-width="2"/>
+
+  <!-- ===== ROW 1 : MOBILE (y=36) ===== -->
+  <polygon points="20,36 150,36 170,64 150,92 20,92 40,64" fill="url(#tag)" stroke="#ff4d2e" stroke-width="1.5" filter="url(#glow)"/>
+  <text x="90" y="69" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="bold" letter-spacing="2" fill="#ff5a2e">MOBILE</text>
+  <line x1="170" y1="64" x2="200" y2="64" stroke="#ff3b1f" stroke-width="2" stroke-dasharray="4 6" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/></line>
+  <g font-family="'Courier New',monospace" font-size="13" font-weight="bold" fill="#ffb08a" text-anchor="middle">
+    <polygon points="216,36 288,36 304,64 288,92 216,92 200,64" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></polygon>
+    <text x="252" y="69">Flutter</text>
+    <polygon points="332,36 404,36 420,64 404,92 332,92 316,64" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.4s" repeatCount="indefinite"/></polygon>
+    <text x="368" y="69">BLoC/Cubit</text>
+    <polygon points="448,36 520,36 536,64 520,92 448,92 432,64" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.8s" repeatCount="indefinite"/></polygon>
+    <text x="484" y="69" font-size="11">Clean Arch</text>
+    <polygon points="564,36 636,36 652,64 636,92 564,92 548,64" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.2s" repeatCount="indefinite"/></polygon>
+    <text x="600" y="69">GetX</text>
+  </g>
+
+  <!-- ===== ROW 2 : BACKEND (y=112, offset +58 honeycomb) ===== -->
+  <polygon points="20,112 150,112 170,140 150,168 20,168 40,140" fill="url(#tag)" stroke="#ff4d2e" stroke-width="1.5" filter="url(#glow)"/>
+  <text x="90" y="145" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="bold" letter-spacing="2" fill="#ff5a2e">BACKEND</text>
+  <line x1="170" y1="140" x2="258" y2="140" stroke="#ff3b1f" stroke-width="2" stroke-dasharray="4 6" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/></line>
+  <g font-family="'Courier New',monospace" font-size="13" font-weight="bold" fill="#ffb08a" text-anchor="middle">
+    <polygon points="274,112 346,112 362,140 346,168 274,168 258,140" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.2s" repeatCount="indefinite"/></polygon>
+    <text x="310" y="145">Firebase</text>
+    <polygon points="390,112 462,112 478,140 462,168 390,168 374,140" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></polygon>
+    <text x="426" y="145">REST APIs</text>
+    <polygon points="506,112 578,112 594,140 578,168 506,168 490,140" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1s" repeatCount="indefinite"/></polygon>
+    <text x="542" y="145" font-size="12">PostgreSQL</text>
+    <polygon points="622,112 694,112 710,140 694,168 622,168 606,140" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.4s" repeatCount="indefinite"/></polygon>
+    <text x="658" y="145">MySQL</text>
+  </g>
+
+  <!-- ===== ROW 3 : LANGUAGES (y=188) ===== -->
+  <polygon points="20,188 150,188 170,216 150,244 20,244 40,216" fill="url(#tag)" stroke="#ff4d2e" stroke-width="1.5" filter="url(#glow)"/>
+  <text x="90" y="221" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="bold" letter-spacing="2" fill="#ff5a2e">LANGUAGES</text>
+  <line x1="170" y1="216" x2="200" y2="216" stroke="#ff3b1f" stroke-width="2" stroke-dasharray="4 6" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/></line>
+  <g font-family="'Courier New',monospace" font-size="13" font-weight="bold" fill="#ffb08a" text-anchor="middle">
+    <polygon points="216,188 288,188 304,216 288,244 216,244 200,216" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></polygon>
+    <text x="252" y="221">Dart</text>
+    <polygon points="332,188 404,188 420,216 404,244 332,244 316,216" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.7s" repeatCount="indefinite"/></polygon>
+    <text x="368" y="221">Python</text>
+    <polygon points="448,188 520,188 536,216 520,244 448,244 432,216" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.1s" repeatCount="indefinite"/></polygon>
+    <text x="484" y="221">Java</text>
+    <polygon points="564,188 636,188 652,216 636,244 564,244 548,216" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.5s" repeatCount="indefinite"/></polygon>
+    <text x="600" y="221">C</text>
+  </g>
+
+  <!-- ===== ROW 4 : TOOLS & AI (y=264, offset +58) ===== -->
+  <polygon points="20,264 150,264 170,292 150,320 20,320 40,292" fill="url(#tag)" stroke="#ff4d2e" stroke-width="1.5" filter="url(#glow)"/>
+  <text x="90" y="297" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="bold" letter-spacing="2" fill="#ff5a2e">TOOLS &amp; AI</text>
+  <line x1="170" y1="292" x2="258" y2="292" stroke="#ff3b1f" stroke-width="2" stroke-dasharray="4 6" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/></line>
+  <g font-family="'Courier New',monospace" font-size="13" font-weight="bold" fill="#ffb08a" text-anchor="middle">
+    <polygon points="274,264 346,264 362,292 346,320 274,320 258,292" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></polygon>
+    <text x="310" y="297">Git</text>
+    <polygon points="390,264 462,264 478,292 462,320 390,320 374,292" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></polygon>
+    <text x="426" y="297">GitHub</text>
+    <polygon points="506,264 578,264 594,292 578,320 506,320 490,292" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></polygon>
+    <text x="542" y="297">VS Code</text>
+    <polygon points="622,264 694,264 710,292 694,320 622,320 606,292" fill="url(#scale)" stroke="#ff4d2e" stroke-width="2" filter="url(#glow)"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.7s" repeatCount="indefinite"/></polygon>
+    <text x="658" y="297">DL</text>
+  </g>
+
+  <!-- rising embers -->
+  <g fill="#ff9a3c" filter="url(#glow)">
+    <circle cx="740" cy="350" r="2"><animate attributeName="cy" values="350;20" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="350" r="1.6"><animate attributeName="cy" values="350;40" dur="4s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="795" cy="350" r="2"><animate attributeName="cy" values="350;30" dur="5.5s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5.5s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

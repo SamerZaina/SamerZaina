@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a"/>
+      <stop offset="1" stop-color="#ff9a3c"/>
+    </linearGradient>
+    <clipPath id="c0"><rect x="0" y="0" height="120" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0;0.08;0.185;0.2;1" values="0;0;900;900;0;0"/></rect></clipPath>
+    <clipPath id="c1"><rect x="0" y="0" height="120" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.2;0.28;0.385;0.4;1" values="0;0;900;900;0;0"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" height="120" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.4;0.48;0.585;0.6;1" values="0;0;900;900;0;0"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" height="120" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.6;0.68;0.785;0.8;1" values="0;0;900;900;0;0"/></rect></clipPath>
+    <clipPath id="c4"><rect x="0" y="0" height="120" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.8;0.88;0.985;1;1" values="0;0;900;900;0;0"/></rect></clipPath>
+  </defs>
+
+  <rect width="900" height="120" rx="14" fill="#0a0709"/>
+  <rect x="1" y="1" width="898" height="118" rx="13" fill="none" stroke="#2a0d0d" stroke-width="1"/>
+
+  <!-- energy rails -->
+  <line x1="30" y1="14" x2="870" y2="14" stroke="url(#edge)" stroke-width="2" stroke-dasharray="40 20">
+    <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="30" y1="106" x2="870" y2="106" stroke="url(#edge)" stroke-width="2" stroke-dasharray="40 20">
+    <animate attributeName="stroke-dashoffset" from="0" to="120" dur="2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- corner brackets -->
+  <g stroke="#ff3b1f" stroke-width="2" fill="none" filter="url(#glow)">
+    <path d="M14,34 V20 Q14,14 20,14 H34"/>
+    <path d="M886,34 V20 Q886,14 880,14 H866"/>
+    <path d="M14,86 V100 Q14,106 20,106 H34"/>
+    <path d="M886,86 V100 Q886,106 880,106 H866"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <animate attributeName="opacity" dur="1.7s" repeatCount="indefinite" values="1;1;0.82;1;0.92;1;1" keyTimes="0;0.4;0.45;0.5;0.7;0.75;1"/>
+    <g clip-path="url(#c0)"><text x="450" y="68" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="27" font-weight="bold" fill="url(#txt)">&gt; Hi, I'm Samer Abu Zaina_</text></g>
+    <g clip-path="url(#c1)"><text x="450" y="68" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="27" font-weight="bold" fill="url(#txt)">&gt; Computer Engineer_</text></g>
+    <g clip-path="url(#c2)"><text x="450" y="68" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="27" font-weight="bold" fill="url(#txt)">&gt; Flutter Mobile Developer_</text></g>
+    <g clip-path="url(#c3)"><text x="450" y="68" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="27" font-weight="bold" fill="url(#txt)">&gt; Clean Architecture &amp; Scalable Apps_</text></g>
+    <g clip-path="url(#c4)"><text x="450" y="68" text-anchor="middle" font-family="'Fira Code','Courier New',monospace" font-size="27" font-weight="bold" fill="url(#txt)">&gt; Always Learning, Always Building_</text></g>
+  </g>
+
+  <!-- scanning laser -->
+  <rect y="14" width="3" height="92" fill="#ff5a2a" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="x" values="0;900" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

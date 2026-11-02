@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="48" viewBox="0 0 820 48">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" x2="1">
+      <stop offset="0" stop-color="#3a0b0b"/>
+      <stop offset="1" stop-color="#1a0607"/>
+    </linearGradient>
+  </defs>
+  <polygon points="10,6 270,6 290,24 270,42 10,42 30,24" fill="url(#tag)" stroke="#ff4d2e" stroke-width="1.5" filter="url(#glow)">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="150" y="30" text-anchor="middle" font-family="'Courier New',monospace" font-size="17" font-weight="bold" letter-spacing="4" fill="#ff5a2e">MOBILE APPS</text>
+  <line x1="310" y1="24" x2="790" y2="24" stroke="url(#edge)" stroke-width="2" stroke-dasharray="30 12" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-84" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>

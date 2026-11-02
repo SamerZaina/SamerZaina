@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="70" viewBox="0 0 820 70">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="txt" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a"/>
+      <stop offset="1" stop-color="#ff9a3c"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#ff2a2a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="70" rx="12" fill="#0a0709"/>
+  <rect x="1" y="1" width="818" height="68" rx="11" fill="none" stroke="#2a0d0d"/>
+
+  <g transform="translate(40,58)" filter="url(#glow)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1 1;1 1.1;1 0.94;1 1.06;1 1" dur="1.4s" repeatCount="indefinite"/>
+      <path d="M0,-44 C6,-32 14,-28 12,-16 C10,-4 2,0 0,0 C-8,0 -14,-8 -10,-18 C-8,-24 -4,-24 -2,-32 C-1,-36 0,-40 0,-44 Z" fill="#ff3b1f"/>
+      <path d="M0,-26 C4,-20 6,-14 3,-8 C1,-5 -2,-5 -3,-8 C-5,-13 -2,-18 0,-26 Z" fill="#ffd27a"/>
+    </g>
+  </g>
+
+  <text x="80" y="22" font-family="'Courier New',monospace" font-size="11" letter-spacing="3" fill="#ff6a3c">// 04 · METRICS &amp; ACTIVITY</text>
+  <text x="80" y="52" font-family="'Courier New',monospace" font-size="28" font-weight="bold" letter-spacing="6" fill="url(#txt)" filter="url(#glow)">GITHUB STATS</text>
+
+  <line x1="410" y1="35" x2="780" y2="35" stroke="url(#edge)" stroke-width="2" stroke-dasharray="30 12" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-84" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="796,35 788,27 780,35 788,43" fill="#ff3b1f" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+  </polygon>
+</svg>
