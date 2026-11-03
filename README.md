@@ -171,7 +171,7 @@
 <p align="center">
   <a href="mailto:Samerzaina47@gmail.com"><img src="./assets/connect/gmail.svg" width="130" height="150" alt="Gmail" title="Gmail" /></a>
   <a href="https://www.linkedin.com/in/samerabuzaina/"><img src="./assets/connect/linkedin.svg" width="130" height="150" alt="LinkedIn" title="LinkedIn" /></a>
-  <a href="https://wa.me/972597776840"><img src="./assets/connect/whatsapp.svg" width="130" height="150" alt="WhatsApp" title="WhatsApp" /></a>
+  <a href="https://wa.me/970597776840"><img src="./assets/connect/whatsapp.svg" width="130" height="150" alt="WhatsApp" title="WhatsApp" /></a>
   <a href="https://x.com/SamerAbuZaina"><img src="./assets/connect/x.svg" width="130" height="150" alt="X" title="X" /></a>
   <a href="https://leetcode.com/u/SAZ4j/"><img src="./assets/connect/leetcode.svg" width="130" height="150" alt="LeetCode" title="LeetCode" /></a>
 </p>
