@@ -5,7 +5,7 @@
 
 <!-- Dragon Card: wing (Portfolio) + head + wing (CV) + views -->
 <p align="center">
-  <a href="https://samerabuzaina.netlify.app/"><img src="./assets/wing-left.svg" width="260" height="300" alt="Portfolio" /></a><img src="./assets/dragon-head.svg" width="300" height="300" alt="Dragon" /><a href="https://samerabuzaina.netlify.app/SamerCv.pdf"><img src="./assets/wing-right.svg" width="260" height="300" alt="Resume" /></a>
+  <a href="https://samerabuzaina.netlify.app/"><img src="./assets/wing-left.svg" width="260" height="300" alt="Portfolio" /></a><img src="./assets/dragon-head.svg" width="300" height="300" alt="Dragon" /><a href="https://docs.google.com/document/d/1YNjQwZSkRxPYOjHcbGnRVSgLOE6pKckPKT3A_xvkE9Y/edit?usp=sharing"><img src="./assets/wing-right.svg" width="260" height="300" alt="Resume" /></a>
 </p>
 
 <p align="center">
