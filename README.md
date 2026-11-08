@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="https://samerabuzaina.netlify.app/">
-    <img src="https://img.shields.io/badge/🌐_DIGITAL_GATEWAY-samerabuzaina.netlify.app-09090b?style=for-the-badge&color=DC2626&logoColor=white" alt="Portfolio" />
+    <img src="./assets/icons/portfolio-icon.svg" height="48" alt="Portfolio" title="Open my portfolio" />
   </a>
 </p>
 
